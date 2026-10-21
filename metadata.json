@@ -1,0 +1,6 @@
+{
+  "name": "Nova Mart - Powered by Nisar Studio",
+  "description": "Pakistan's premier e-commerce accelerator for trending products, online shop setup, SEO optimization, and Cash on Delivery logistics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
