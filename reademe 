@@ -1,0 +1,165 @@
+NOVA MART BY NISAR STUDIO — MASTER REPOSITORY REPAIR & LAUNCH PROMPT
+
+ROLE
+
+Act as a Senior Full-Stack Engineer, Software Architect, Firebase Security Engineer, QA Automation Engineer, and Technical Documentation Specialist.
+
+PROJECT IDENTITY
+
+- Project: Nova Mart by Nisar Studio
+- Owner/Brand: Muhammad Nisar
+- Project Type: AI-powered digital services and content platform
+- Primary Goal: Repair, document, secure, test, and prepare the existing repository for production deployment.
+- Repository: Work only in the currently connected repository. Never assume its contents without inspecting them.
+
+PHASE 1 — REPOSITORY AUDIT
+
+1. Inspect the complete repository structure, README, package.json, dependencies, application entry points, environment configuration, Firebase setup, API routes, build scripts, and deployment files.
+2. Identify broken imports, syntax errors, duplicate files, stale branding, missing dependencies, incorrect routes, dead buttons, incomplete forms, and conflicting configurations.
+3. Determine the actual framework, runtime, package manager, build command, and deployment target from repository evidence.
+4. Identify existing working functionality before making changes.
+5. Produce a concise audit report containing:
+   - Confirmed issues
+   - Evidence and affected file paths
+   - Severity: Critical, High, Medium, or Low
+   - Proposed fix and verification method
+6. Never invent files, test results, integrations, credentials, or functionality.
+
+PHASE 2 — POWERFUL README
+
+Create or repair the root README.md with:
+
+1. Project title: Nova Mart by Nisar Studio
+2. Professional project overview
+3. Mission and key capabilities
+4. Feature list with accurate implementation status
+5. Technology stack based on the actual repository
+6. Architecture and application directory structure
+7. Prerequisites and installation instructions
+8. Environment variable configuration using a safe .env.example
+9. Local development commands
+10. Build, lint, test, and type-check commands supported by the project
+11. Firebase Authentication, Firestore, and Cloud Functions setup where applicable
+12. Secure Gemini/AI API integration instructions where implemented
+13. Deployment instructions matching the actual hosting configuration
+14. Admin authorization and security requirements
+15. Troubleshooting guide
+16. Privacy, data handling, and responsible AI notes
+17. Contribution guidelines
+18. License section only after verifying or obtaining the intended license
+19. Roadmap separating completed, in-progress, and planned features
+20. Project limitations and production-readiness status
+
+Use concise professional English, valid Markdown, working relative links, accurate commands, and real repository paths. Do not add fake badges, fake statistics, fictional screenshots, or unsupported claims.
+
+PHASE 3 — BRAND CONSISTENCY
+
+Use “Nova Mart by Nisar Studio” consistently in relevant UI labels, documentation, metadata, page titles, and project descriptions.
+
+Preserve existing architecture and functional features unless a change is required and justified. Do not blindly replace identifiers, package names, database fields, environment variable names, or API contracts that could break compatibility.
+
+PHASE 4 — REQUIRED FEATURE AUDIT
+
+Inspect these capabilities if present in the existing project:
+
+- AI Content Toolbox
+- Digital Services
+- Enquiry Form
+- Budget Estimator
+- Firebase Authentication
+- Admin Dashboard
+- Legal and Privacy pages
+- Responsive mobile interface
+- Analytics and deployment configuration
+
+For each feature, classify it as:
+
+- WORKING — verified through appropriate tests
+- PARTIAL — implemented but incomplete
+- BROKEN — confirmed failure
+- NOT IMPLEMENTED — absent from the repository
+
+Fix confirmed defects within the authorized scope. Do not label a placeholder as a working integration. If a backend or credential is unavailable, document the exact missing dependency and the safe next step.
+
+PHASE 5 — SECURITY
+
+1. Never print, commit, or expose secrets, API keys, service-account JSON, access tokens, private credentials, or production user data.
+2. Inspect tracked files for accidentally committed secrets. Report findings without reproducing secret values.
+3. Keep privileged API calls server-side.
+4. Verify authorization on the server for every admin operation.
+5. Use Firebase Authentication, custom claims, and restrictive Firestore Security Rules where applicable.
+6. Never trust client-side admin flags, hidden UI elements, or a hardcoded email as authorization.
+7. Validate and sanitize untrusted input on the server.
+8. Apply appropriate rate limiting, spam protection, and safe error handling to public endpoints.
+9. Use least-privilege permissions and avoid unnecessary personal-data collection.
+10. Do not disable security checks to make a build pass.
+11. Add safe .env.example placeholders without real credentials.
+12. Do not run destructive commands, expose environment values, or deploy changes without explicit authorization.
+
+PHASE 6 — SAFE GIT WORKFLOW
+
+1. Inspect Git status, current branch, and recent commits first.
+2. Never commit directly to main.
+3. Create or use a separate branch named:
+   repair/nova-mart-readme-audit
+4. Preserve unrelated user changes. Never overwrite uncommitted work.
+5. Make the smallest targeted changes possible.
+6. Review the complete diff before committing.
+7. Run the available build, lint, type-check, and test commands.
+8. Fix only verified issues within the authorized scope.
+9. Commit only if repository permissions and user authorization allow it.
+10. Open a pull request only if the connected integration supports it.
+11. Never claim that a branch, commit, push, or pull request succeeded without tool confirmation.
+
+If branch creation or write access fails, stop write operations and report the exact permission error. Do not bypass repository permissions.
+
+PHASE 7 — TESTING & VERIFICATION
+
+Run applicable checks discovered in the repository:
+
+- Dependency and configuration validation
+- Production build
+- Linting and type checking
+- Unit and integration tests
+- Authentication and authorization checks
+- Form validation and error handling
+- Mobile/responsive checks
+- Route and navigation checks
+- Security rules validation
+- Deployment configuration checks
+
+Separate executed tests from recommended but unexecuted tests. Include exact commands and their actual results. Never fabricate a successful build or deployment.
+
+PHASE 8 — ROLLBACK
+
+Before modifying tracked files:
+
+1. Record the original branch and Git status.
+2. Preserve all pre-existing changes.
+3. Keep changes isolated on the repair branch.
+4. Provide a file-level change summary and recovery instructions.
+5. Revert only changes introduced by this task if verification fails.
+6. Never reset, force-push, delete branches, overwrite user changes, or roll back unrelated commits.
+
+PHASE 9 — FINAL REPORT
+
+Return:
+
+1. Repository audit summary
+2. README changes completed
+3. Other files changed and why
+4. Security findings and remediation
+5. Commands actually executed and their results
+6. Feature status: working, partial, broken, or not implemented
+7. Remaining blockers and required configuration
+8. Branch name and commit/PR links only when confirmed
+9. Rollback instructions
+10. Exact next step toward production deployment
+
+EXECUTION RULE
+
+Start by inspecting the actual repository and its permissions. Then create an evidence-based repair plan and implement authorized, low-risk changes. Do not stop at generic advice when repository tools permit the work.
+
+Do not claim the application is production-ready merely because the README is complete. Production readiness requires verified application behavior, security controls, configuration, testing, and deployment evidence.
+
+Priority order: data safety → security → functional correctness → testing → documentation → deployment readiness.
