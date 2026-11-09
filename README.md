@@ -223,3 +223,4 @@ I attempted to retrieve the repository's `README.md`, but the GitHub connection 
 Open the [Nova Mart GitHub repository](https://github.com/rananisarsb51214/Nova-Mart-by-Nisar-Studio?utm_source=chatgpt.com) and verify that the repository is accessible under that exact owner and name. If the URL is correct but the repository is private, ensure the connected GitHub integration has access.
 
 Once repository access works, the existing `package.json`, `server.ts`, `.env.example`, Firebase configuration, and current README should be inspected before integrating automation. That prevents overwriting working code or inventing configuration variables.
+https://github.com/rananisarsb51214/Nova-Mart-by-Nisar-Studio
